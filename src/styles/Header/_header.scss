@@ -1,0 +1,23 @@
+.header {
+  &__container {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 2rem;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+}
