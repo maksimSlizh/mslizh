@@ -1,0 +1,10 @@
+.prew {
+
+  &__img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 50%;
+    filter: brightness(80%);
+  }
+}

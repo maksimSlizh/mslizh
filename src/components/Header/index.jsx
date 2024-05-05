@@ -1,8 +1,7 @@
 export function Header() {
   return (
     <header className="header">
-      <div className="container">
-        <div className="header__container">
+        <div className="header__box">
           <h1 className='header__logo'>MSlizh</h1>
 
           <div className='header__nav'>
@@ -13,7 +12,6 @@ export function Header() {
           </div>
         </div>
 
-      </div>
     </header>
   )
 }
