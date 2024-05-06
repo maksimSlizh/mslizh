@@ -1,4 +1,13 @@
 .prew {
+  padding-top: 12rem;
+  display: block;
+  height: 100vh;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__img {
     width: 500px;
